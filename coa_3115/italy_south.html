@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>COA 3115: Another Incredible Journey</title>  
+		<link href="../style/style.css" type="text/css" rel="stylesheet" media="screen"/>
+	</head>
+
+	<body>
+
+		<script>
+			function onHover(element){
+				var image = document.getElementById("index_image");
+				var attribute = element.getAttribute("src");
+				if(attribute == null){
+					image.setAttribute("src", "../images/05_11/mycenae_thanos_hands.jpg");
+				}
+				else{
+					image.setAttribute("src", attribute);
+				}
+			}
+		</script>
+
+		<section>
+			<h1>Part 2: COA 3115</h1>
+		</section>
+		<div class="sector">
+			<div class="index_left"> 
+				<a class="day" onMouseOver="onHover(this)" href="day_05_29.html" src="../images/05_29/pompeii_forum_vesuvius.jpg">May 29, 2015: Pompeii</a>
+
+				<a class="day" onMouseOver="onHover(this)" href="day_06_01.html" src="../images/06_01/rome_victory_chariot.jpg">June 1, 2015: Rome Introduction</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_02.html" src="../images/06_02/rome_forum_basilica_julia.jpg">June 2, 2015: Roman Forum</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_03.html" src="../images/06_03/rome_colosseum.jpg">June 3, 2015: Imperial Rome</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_04.html" src="../images/06_04/ostia_ruins_tree.jpg">June 4, 2015: Ostia</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_05.html" src="../images/06_05/tivoli_nice.jpg">June 5, 2015: Tivoli - Hadrian's Villa</a>
+
+				<a class="day" onMouseOver="onHover(this)" href="day_06_08.html" src="../images/06_08/rome_santa_maria_traveste_2.jpg">June 8, 2015: Late Classical Medieval Rome</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_09.html" src="../images/06_09/rome_capitoline_dying_gaul.jpg">June 9, 2015: Renaissance Rome</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_10.html" src="../images/06_10/.jpg">June 10, 2015: Renaissance Villas</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_11.html" src="../images/06_11/.jpg">June 11, 2015: Vatican City</a>
+				
+
+			</div>
+			<div class="index_right">
+				<img class="index_image" id="index_image" src="../images/05_29/pompeii_forum_vesuvius.jpg">
+			</div>
+		</div>
+
+		
+		
+	</body>
+
+</html>

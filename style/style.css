@@ -1,0 +1,212 @@
+/* Set Fonts */
+body, p, h1, h2, h3, a, figure, figcaption, .reflection{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #555566;
+	text-align: center;
+
+}
+
+/* Colors 
+
+	Offwhite background: #eeeeee;
+	Default Blue text: #5555ff;
+	Default visited text: #7777ff;
+
+	Add more colors here as they are used
+	(would just use CSS variables, but those aren't reliable yet.)
+*/
+
+body{
+	background: #eeeeee;
+}
+
+p{
+	background: #eeeeee;
+}
+
+/* containers */
+
+body{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* headers */
+
+body h1, body h2{
+	margin-right: 15%;
+	margin-left: 15%;
+
+}
+
+body h1{
+	margin-top: 60px;
+	font-size: 50px;
+	text-align: 
+
+}
+
+/* images and figures */
+
+img{
+	padding: 10px;
+	/*border: 2px dotted #5555ff;*/
+}
+
+figure{
+	/*border: 2px dotted #5555FF;*/
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+figcaption{
+	/*border-top: 2px dotted #5555FF;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+
+figure img{
+	border: none;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 100%;
+	/*width: 80%;*/
+	/*padding: 20%;*/
+}
+
+.top_image{
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.class_image{
+	height: auto;
+	width: auto;
+	max-width: 80%;
+	padding: 10px;
+}
+
+.index_image{
+	width:auto;
+	height: auto;
+	max-width: 100%;
+}
+
+/* sections */
+
+section {
+	padding: 0px;
+	/*border-bottom: 2px dotted #5555FF;*/
+	display: block;
+}
+
+.sector{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	/*border-bottom: 2px dotted #5555ff;*/
+}
+
+/* text and links */
+
+.reflection{
+	/*padding: 20px 40px;*/
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+	text-align: left;
+	font-size: 20px;
+	/*font-family: Georgia;*/
+	font-style: italic;
+	color: #555566;
+	text-indent: something;
+	text-wrap: something;
+}
+
+p {
+
+	color: #5555ff;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: left;
+	font-size: 20px;
+}
+
+a{
+	color: #7777ff;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited{
+	color: #7777ff;
+}
+
+/* index pages */
+
+/* index.html */
+.class_container{
+	display: block;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.class{
+	display: inline-block;
+	width: 32%;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align:center;
+	font-size: 40px;
+}
+
+/* [greece/italy].html */
+.index_left{
+	display: inline-block;
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 0%;
+	float:left;
+	max-width: 40%;
+}
+
+.day{
+	text-align: left;
+	display: block;
+}
+
+.index_right{
+
+	width: 35%;
+	margin-right: 10%;
+	margin-left: 0%;
+	float: right;
+	display: inline-block;
+}
+
+
+

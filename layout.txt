@@ -1,0 +1,31 @@
+Idea for layout for Journal site:
+
+Home page: links to get to 3114, 3115, 3116:
+
+	3114:
+
+		Different page for Each Day.  (hopefully. Lots of picures and sketches to make this happen) 
+
+
+OUtline of how the file structure for this needs to be set up:
+Journal
+	index.html
+	coa_3114
+		05_11
+		05_12
+		05_13
+		etc.
+	coa_3115
+		dates
+	coa_3116
+		dates
+
+images
+	selected
+		image files
+	05_08
+		unsorted files
+	05_09
+	05_10
+
+
