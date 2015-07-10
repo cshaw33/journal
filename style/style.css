@@ -17,11 +17,12 @@ body, p, h1, h2, h3, a, figure, figcaption, .reflection{
 */
 
 body{
-	background: #eeeeee;
+	background: #ffffff;
 }
 
 p{
-	background: #eeeeee;
+	background: #ffffff;
+	
 }
 
 /* containers */
@@ -49,8 +50,15 @@ body h1{
 /* images and figures */
 
 img{
-	padding: 10px;
-	/*border: 2px dotted #5555ff;*/
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+
+	width: 100%;
+	height: auto;
+	text-align: center;
 }
 
 figure{
@@ -124,29 +132,26 @@ section {
 
 /* text and links */
 
-.reflection{
+p, .reflection{
 	/*padding: 20px 40px;*/
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	margin: 0px;
 	
-	text-align: left;
+	text-align: justify;
+	text-justify: inter-word;
 	font-size: 20px;
 	/*font-family: Georgia;*/
-	font-style: italic;
 	color: #555566;
 	text-indent: something;
 	text-wrap: something;
 }
 
-p {
-
-	color: #5555ff;
-	margin-left: 20%;
-	margin-right: 20%;
-	text-align: left;
-	font-size: 20px;
+.reflection{
+	font-style: italic;
 }
 
 a{
