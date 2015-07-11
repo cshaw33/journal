@@ -1,5 +1,6 @@
 *.swp
 [Ii]mages/*
+[Ii]mages_temporary/*
 [Ii]gnore/*
 [Cc]ode/*
 
