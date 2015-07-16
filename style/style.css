@@ -96,6 +96,10 @@ figure img{
 	/*padding: 20%;*/
 }
 
+.vertical{
+	/*For portrait oriented photos*/
+}
+
 .top_image{
 	margin-left: 0%;
 	margin-right: 0%;
@@ -158,7 +162,7 @@ p, .reflection{
 }
 
 .reflection{
-	font-style: italic;
+	/*font-style: italic;*/
 }
 
 .reflection.off{
