@@ -32,6 +32,25 @@ body{
 	margin-right: 0px;
 }
 
+footer{
+	display: block;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 20px;
+	margin-bottom: 200px;
+}
+
+.prev{
+	float: left;
+}
+.next{
+	float: right;
+}
+.index{
+	margin: 0px 20px;
+}
+
 /* headers */
 
 body h1, body h2{
@@ -94,6 +113,52 @@ figure img{
 
 	/*width: 80%;*/
 	/*padding: 20%;*/
+}
+
+.gallery li figure img{
+	max-width: 100%;
+	margin: 0px;
+	display: block;
+}
+
+.gallery li figure{
+	/*display: inline;*/
+	display: block;
+	margin: 3px 0px;
+	width: 100%;
+	float: left;
+}
+
+.gallery li figure figcaption{
+	width: 100%;
+	display: block;
+	background: #ddd;
+}
+
+.gallery li{
+	display: inline-block;
+	/*width: 32%;*/
+	float: none;
+}
+.gallery.three li{
+	width: 32%;
+	height: 330px;
+}
+.gallery.two li{
+	width: 47%;
+	margin: 3px 2%;
+	height: 480px;
+}
+
+.gallery.three li figure img{
+	max-height: 330px;
+}
+
+.gallery{
+	margin: 0px 20px;
+	padding: 0px;
+	list-style-type: none;
+	display: block;
 }
 
 .vertical{
