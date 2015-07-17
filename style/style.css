@@ -132,7 +132,7 @@ figure img{
 .gallery li figure figcaption{
 	width: 100%;
 	display: block;
-	background: #ddd;
+	background: #FFF;
 }
 
 .gallery li{
@@ -142,12 +142,12 @@ figure img{
 }
 .gallery.three li{
 	width: 32%;
-	height: 330px;
+	height: 380px;
 }
 .gallery.two li{
 	width: 47%;
-	margin: 3px 2%;
-	height: 480px;
+	margin: 2px;
+	height: 520px;
 }
 
 .gallery.three li figure img{
@@ -188,6 +188,13 @@ figure img{
 	width:auto;
 	height: auto;
 	max-width: 100%;
+}
+
+.pano{
+	height: 300px;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+	background-size: 100% auto;
 }
 
 /* sections */
