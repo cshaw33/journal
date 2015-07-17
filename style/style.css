@@ -62,8 +62,20 @@ body h1, body h2{
 body h1{
 	margin-top: 60px;
 	font-size: 50px;
-	text-align: 
+	text-align: center;
 
+	border-bottom:dotted;
+	border-top:none;
+	border-right:none;
+	border-left: none;
+	border-width: 1px;
+
+	padding-bottom: 25px;
+
+}
+
+body h2{
+	font-size: 30px;
 }
 
 /* images and figures */
