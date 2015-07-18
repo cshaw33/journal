@@ -130,7 +130,8 @@ figure img{
 .gallery li figure img{
 	max-width: 100%;
 	margin: 0px;
-	display: block;
+	display: inline;
+	float: center;
 }
 
 .gallery li figure{
@@ -149,6 +150,8 @@ figure img{
 
 .gallery li{
 	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	/*width: 32%;*/
 	float: none;
 }
