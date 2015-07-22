@@ -178,10 +178,13 @@ figure img{
 
 .fountain{
 	width: 550px;
+	height: auto;
+	margin: 0px auto;
 }
 .fountain img{
 	width:100%;
 	height: auto;
+
 }
 
 .vertical{
