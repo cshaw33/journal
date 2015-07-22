@@ -3,14 +3,54 @@
 <html>
 
 	<head>
-		<title>COA 3116: An Incredible Journey</title>  
+		<title>COA 3116</title>  
 		<link href="../style/style.css" type="text/css" rel="stylesheet" media="screen"/>
 	</head>
 
 	<body>
 
+		<script>
+			function onHover(element){
+				var image = document.getElementById("index_image");
+				var attribute = element.getAttribute("src");
+				if(attribute == null){
+					image.setAttribute("src", "../images/529_forum_vesuvius.jpg");
+				}
+				else{
+					image.setAttribute("src", attribute);
+				}
+			}
+		</script>
 
-		<h1>Part 3: COA 3116, Yet Another Incredible Journey</h1>
+		<section>
+			<h1>Part 3: COA 3116</h1>
+		</section>
+		<div class="sector">
+			<div class="index_left"> 
+				<a class="day" onMouseOver="onHover(this)" href="day_06_12.html" src="../images/612_bruno.jpg">June 12, 2015: Baroque and Late Baroque Rome</a>
+
+				<a class="day" onMouseOver="onHover(this)" href="day_06_15.html" src="../images/615_san_miniato.jpg">June 15, 2015: Florence Introduction</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_16.html" src="../images/616_florence.jpg">June 16, 2015: Medieval Florence</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_17.html" src="../images/617.jpg">June 17, 2015: Siena and Pienza</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_18.html" src="../images/618.jpg">June 18, 2015: Early Renaissance Florence</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_19.html" src="../images/619.jpg">June 19, 2015: The Duomo Complex</a>
+
+				<a class="day" onMouseOver="onHover(this)" href="day_06_22.html" src="../images/622.jpg">June 22, 2015: High Renaissance Florence</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_23.html" src="../images/623.jpg">June 23, 2015: Palazzo Pitti and Boboli Gardens</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_24.html" src="../images/624.jpg">June 24, 2015: Vicenza</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_25.html" src="../images/625.jpg">June 25, 2015: Venice</a>
+				<a class="day" onMouseOver="onHover(this)" href="day_06_26.html" src="../images/626.jpg">June 26, 2015: La Biennale di Venezia</a>
+
+				
+
+			</div>
+			<div class="index_right">
+				<img class="index_image" id="index_image" src="../images/612_bruno.jpg">
+			</div>
+		</div>
+
+		
+		
 	</body>
 
 </html>
