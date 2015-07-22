@@ -176,6 +176,14 @@ figure img{
 	display: block;
 }
 
+.fountain{
+	width: 550px;
+}
+.fountain img{
+	width:100%;
+	height: auto;
+}
+
 .vertical{
 	/*For portrait oriented photos*/
 }
